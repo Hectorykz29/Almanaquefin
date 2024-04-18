@@ -1,0 +1,97 @@
+
+.agenda {
+    margin-bottom: 20px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.button-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columnas */
+    grid-gap: 10px; /* Espacio entre botones */
+}
+
+.btn {
+    padding: 10px 20px; /* Ajusta el padding según sea necesario */
+    font-size: 16px; /* Tamaño de la fuente */
+    color: white; /* Color del texto blanco */
+    border: none; /* Sin borde */
+    cursor: pointer;
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s ease; /* Transición suave al cambiar el color de fondo */
+}
+
+.btn:hover {
+    filter: brightness(0.8); /* Reduce el brillo al pasar el mouse */
+}
+
+/* Define los colores de los botones */
+.btn-enero { background-color: #26884b; } /* Azul */
+.btn-febrero { background-color: #28a745; } /* Verde */
+.btn-marzo { background-color: #d6901e; } /* Amarillo */
+.btn-abril { background-color: #9c235e; } 
+.btn-mayo { background-color: #211355; } 
+.btn-junio { background-color: #b7d20a; } 
+.btn-julio { background-color: #ffc107; } 
+.btn-agosto { background-color: #f10a0a; } 
+.btn-setiembre { background-color: #736fae; } 
+.btn-octubre { background-color: #1a380c; } 
+.btn-noviembre { background-color: #0c4156; } 
+.btn-diciembre { background-color: #d607ff; } 
+/* Agrega más clases para los otros meses según sea necesario */
+label {
+    font-weight: bold; /* Hace que el texto del label sea más visible */
+    margin-bottom: 5px; /* Agrega un espacio entre los labels y los campos de entrada */
+    display: block; /* Hace que cada label ocupe una línea completa */
+}
+
+textarea {
+    height: 100px; /* Altura deseada en píxeles */
+    resize: vertical; /* Permite redimensionar verticalmente si se necesita */
+}
+
+/* Estilo para el botón de agregar */
+.btn-agregar {
+    background-color: #13ca2e; /* Color azul */
+    color: white; /* Texto blanco */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 10px 20px; /* Ajuste del padding */
+    font-size: 16px; /* Tamaño de la fuente */
+    transition: background-color 0.3s ease; /* Transición suave al cambiar el color de fondo */
+}
+
+.btn-agregar:hover {
+    background-color: #18c077; /* Color azul más oscuro al pasar el mouse */
+}
+
+/* Estilo para el enlace de editar */
+.btn-editar {
+    color: #007bff; /* Color azul */
+    text-decoration: none; /* Sin subrayado */
+    transition: color 0.3s ease; /* Transición suave al cambiar el color */
+}
+
+.btn-editar:hover {
+    color: #0056b3; /* Color azul más oscuro al pasar el mouse */
+}
+
+/* Estilo para el botón de eliminar */
+.btn-eliminar {
+    background-color: #dc3545; /* Color rojo */
+    color: white; /* Texto blanco */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 5px 10px; /* Ajuste del padding */
+    font-size: 14px; /* Tamaño de la fuente */
+    transition: background-color 0.3s ease; /* Transición suave al cambiar el color de fondo */
+}
+
+.btn-eliminar:hover {
+    background-color: #c82333; /* Color rojo más oscuro al pasar el mouse */
+}
